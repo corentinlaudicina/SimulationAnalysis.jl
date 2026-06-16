@@ -13,6 +13,8 @@ export find_mean_squared_displacement, find_non_gaussian_parameter
 export find_overlap_function
 export find_relative_distance_neighborlists, find_absolute_distance_neighborlists, find_voronoi_neighborlists
 export find_CB
+export chi4_per_simulation, compute_G4_per_simulation
+export _gaussian_mobilities, _heaviside_mobilities, _bond_breaking_mobilities, _corrected_gaussian_mobilities
 export find_relaxation_time
 export find_radial_distribution_function
 
@@ -33,6 +35,7 @@ include("F4_diagonal.jl")
 include("OverlapFunction.jl")
 include("Neighborlists.jl")
 include("BondBreakingParameter.jl")
+include("OverlapFluctuationFunction.jl")
 include("Clustering.jl")
 include("Utils.jl")
 include("CurrentModes.jl")
